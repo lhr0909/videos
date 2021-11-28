@@ -10,8 +10,8 @@ export const RemotionVideo: React.FC = () => {
 			<Composition
 				id="HelloWorld"
 				component={HelloWorld}
-				durationInFrames={150}
-				fps={30}
+				durationInFrames={300}
+				fps={60}
 				width={1920}
 				height={1080}
 				defaultProps={{
@@ -22,16 +22,16 @@ export const RemotionVideo: React.FC = () => {
 			<Composition
 				id="Logo"
 				component={Logo}
-				durationInFrames={200}
-				fps={30}
+				durationInFrames={400}
+				fps={60}
 				width={1920}
 				height={1080}
 			/>
 			<Composition
 				id="Title"
 				component={Title}
-				durationInFrames={100}
-				fps={30}
+				durationInFrames={200}
+				fps={60}
 				width={1920}
 				height={1080}
 				defaultProps={{
@@ -42,8 +42,8 @@ export const RemotionVideo: React.FC = () => {
 			<Composition
 				id="Subtitle"
 				component={Subtitle}
-				durationInFrames={100}
-				fps={30}
+				durationInFrames={200}
+				fps={60}
 				width={1920}
 				height={1080}
 			/>
