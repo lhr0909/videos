@@ -1,12 +1,6 @@
-# Remotion video
+# Simon's Video Projects
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <img src="https://github.com/remotion-dev/logo/raw/main/withtitle/element-0.png">
-  </a>
-</p>
-
-Welcome to your Remotion project!
+I will keep all the video produced by [Remotion](https://www.remotion.dev) in this repository.
 
 ## Commands
 
