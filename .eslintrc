@@ -1,7 +1,8 @@
 {
-	"extends": "@remotion",
-	"rules": {
-		"react/jsx-indent": [2, 2],
-		"react/jsx-indent-props": [2, 2]
-	}
+  "extends": "@remotion",
+  "ignorePatterns": ["node_modules", "*.d.ts"],
+  "rules": {
+    "react/jsx-indent": [2, 2],
+    "react/jsx-indent-props": [2, 2]
+  }
 }
