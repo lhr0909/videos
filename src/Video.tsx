@@ -1,48 +1,17 @@
-import {Composition} from 'remotion';
-import {HelloWorld} from './HelloWorld';
-import {Logo} from './HelloWorld/Logo';
-import {Subtitle} from './HelloWorld/Subtitle';
-import {Title} from './HelloWorld/Title';
+import { FC } from 'react';
+import { Composition } from 'remotion';
+import { BrowserWindow } from './BrowserWindow';
 
-export const RemotionVideo: React.FC = () => {
+export const RemotionVideo: FC = () => {
 	return (
 		<>
 			<Composition
-				id="HelloWorld"
-				component={HelloWorld}
+				id="browser"
+				component={BrowserWindow}
+				defaultProps={{
+					url: 'https://openai.com',
+				}}
 				durationInFrames={300}
-				fps={60}
-				width={1920}
-				height={1080}
-				defaultProps={{
-					titleText: 'Welcome to Remotion',
-					titleColor: 'black',
-				}}
-			/>
-			<Composition
-				id="Logo"
-				component={Logo}
-				durationInFrames={400}
-				fps={60}
-				width={1920}
-				height={1080}
-			/>
-			<Composition
-				id="Title"
-				component={Title}
-				durationInFrames={200}
-				fps={60}
-				width={1920}
-				height={1080}
-				defaultProps={{
-					titleText: 'Welcome to Remotion',
-					titleColor: 'black',
-				}}
-			/>
-			<Composition
-				id="Subtitle"
-				component={Subtitle}
-				durationInFrames={200}
 				fps={60}
 				width={1920}
 				height={1080}
